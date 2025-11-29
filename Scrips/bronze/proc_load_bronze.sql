@@ -1,6 +1,8 @@
 /*
 Load The Data From 2 sources To Table
 Calculate the Duration time of loading whole datat and each table
+
+To Use Excute this -->  EXEC bronze.load_bronze
 */
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
