@@ -1,9 +1,9 @@
 USE Datawarehouse
-*/
-  
+/*
+FOR excution 
 EXEC silver.load_silver
   
-\*
+*/
   
 CREATE OR ALTER PROCEDURE silver.load_silver
 AS 
