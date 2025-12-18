@@ -47,17 +47,17 @@ sls_price INT
 IF	OBJECT_ID('silver.erp_cust_az12' ,'U') IS NOT NULL
 	DROP TABLE silver.erp_cust_az12
 CREATE TABLE silver.erp_cust_az12(
-CID NVARCHAR(50),
-BDATE NVARCHAR(50),
-GEN NVARCHAR(20)
+cid NVARCHAR(50),
+bdate NVARCHAR(50),
+gen NVARCHAR(20)
 )
 
 ------------erp_loc_a101--------------
 IF	OBJECT_ID('silver.erp_loc_a101' ,'U') IS NOT NULL
 	DROP TABLE silver.erp_loc_a101
 CREATE TABLE silver.erp_loc_a101(
-CID NVARCHAR(50),
-CNTRY NVARCHAR(50)
+cid NVARCHAR(50),
+cntry NVARCHAR(50)
 )
 
 ------------erp_px_cat_g1v2--------------
