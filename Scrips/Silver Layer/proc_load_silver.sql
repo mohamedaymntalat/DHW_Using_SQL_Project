@@ -80,7 +80,7 @@ BEGIN
 
 	PRINT('===========crm_sales_details=============')
 	PRINT('=TRUNCATE=')
-	TRUNCATE TABLE silver.crm_prd_info 
+	TRUNCATE TABLE silver.crm_sales_details
 	PRINT('=INSERT=')
 	INSERT INTO  silver.crm_sales_details(
 	sls_ord_num, 
